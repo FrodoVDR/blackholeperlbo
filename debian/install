@@ -1,0 +1,3 @@
+vdr-themes/*.theme var/lib/vdr/themes
+themes/* usr/share/vdr/plugins/skindesigner/skins/blackholeperlbo/themes
+xmlfiles/* usr/share/vdr/plugins/skindesigner/skins/blackholeperlbo/xmlfiles

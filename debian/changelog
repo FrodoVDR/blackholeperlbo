@@ -1,0 +1,6 @@
+skindesigner-skin-blackholeperlbo (0.1.3.git20150118.1303-0frodo0~trusty) trusty; urgency=low
+
+  * 6453375: correct cam handling
+
+ -- Frodo <frodo.vdr@gmx.net>  Sun, 18 Jan 2015 14:04:08 +0100
+
