@@ -30,7 +30,7 @@
         </area>
     </scrollbar>
 
-    <menuitems x="1%" y="9%" orientation="vertical" width="98%" height="85%" align="center" numlistelements="10">
+    <menuitems x="1%" y="9%" orientation="vertical" width="98%" height="85%" align="center" numlistelements="{nummenuitems}">
         <!-- Available Variables schedules menu listelement:
         {nummenuitem}             number of item in list, starts with 1
         {title}                   title of event
@@ -78,8 +78,8 @@
             </area>
             <!-- timer symbols-->
             <area condition="{timerfull}||{timerpartitial}" x="47%" width="3%" layer="4">
-                <drawimage condition="{timerfull}" imagetype="icon" path="ico_timer" align="right" y="30%" width="{areaheight}/2" height="{areaheight}/2" />
-                <drawimage condition="{timerpartitial}" imagetype="icon" path="ico_timer" align="right" y="30%" width="{areaheight} * 0.35" height="{areaheight} * 0.35" />
+                <drawimage condition="{timerfull}" imagetype="icon" path="ico_activetimer" align="right" y="30%" width="{areaheight}/2" height="{areaheight}/2" />
+                <drawimage condition="{timerpartitial}" imagetype="icon" path="ico_activetimer" align="right" y="30%" width="{areaheight} * 0.35" height="{areaheight} * 0.35" />
             </area>
             <!-- element whatson -->
             <area condition="not{separator}++{whatson}++not{current}" x="1%" width="9%" layer="3">

@@ -9,7 +9,7 @@
         </area>
     </scrollbar>
 
-    <menuitems x="1%" y="10%" orientation="vertical" width="98%" height="84%" align="center" numlistelements="12">
+    <menuitems x="1%" y="10%" orientation="vertical" width="98%" height="84%" align="center" numlistelements="10">
         <!-- Available Variables channels menu listelement:
         {nummenuitem}       number of item in list, starts with 1
         {title}             Title of Timer
@@ -31,7 +31,7 @@
         {flagactive}        true if timer is active
         {flaginstant}       true if timer is an instant timer
         {flagvps}           true if timer uses VPS
-        {flagrecording}     true if is recording currently
+        {flagrecording}     true if is recording currently	
         {flagpending}       true if timer is pending
         -->
         <listelement>
@@ -49,6 +49,7 @@
             <area condition="not{separator}" x="11%" width="39%" layer="4">
                 <drawimage condition="{flagactive}" imagetype="icon" path="ico_timer_active" align="right"  y="8%" width="{areaheight}/3" height="{areaheight}/3" />
                 <drawimage condition="not{flagactive}" imagetype="icon" path="ico_timer_inactive" align="right" y="8%" width="{areaheight}/3" height="{areaheight}/3" />
+		<drawimage condition="{flagrecording}" name="active" imagetype="icon" path="ico_timer_recording" align="right" y="8%" width="{areaheight}/3" height="{areaheight}/3" />
             </area>
             <areascroll scrollelement="menutext" mode="forthandback" orientation="horizontal" delay="1000" scrollspeed="medium"  condition="not{separator}" x="11%" width="39%" layer="3">
                 <drawtext condition="not{current}"  name="menutext" x="0" y="35%" font="{regular}" fontsize="65%" color="{clrGray}" text="{title}" />
