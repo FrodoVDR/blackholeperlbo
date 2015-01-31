@@ -12,7 +12,7 @@
     "displayname" is used to display the option in the setup menu.
     The configured parameter value is the default value.
     -->
-    <parameters>
+    <menu>
         <parameter type="bool" name="showdevices" displaytext="{tr(showdevices)}">1</parameter>
         <parameter type="bool" name="showposter" displaytext="{tr(showpostertext)}">1</parameter>
         <parameter type="bool" name="showmainmenuicons" displaytext="{tr(showmainmenuicons)}">1</parameter>
@@ -21,7 +21,7 @@
         <parameter type="int" name="nummenuitems" min="8" max="30" displaytext="{tr(nummenuitems)}">14</parameter>
         <parameter type="int" name="nummenuitemsdefault" min="8" max="30" displaytext="{tr(nummenuitemsdefault)}">18</parameter>
         <parameter type="bool" name="showsubtitle" displaytext="{tr(showsubtitle)}">0</parameter>
-    </parameters>
+    </menu>
 
     <!--
     translations of displaytexts
