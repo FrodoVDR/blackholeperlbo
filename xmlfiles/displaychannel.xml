@@ -26,10 +26,10 @@
     {switching}                     true if a number is pressed on the remote to switch to a dedicated channel
     -->
     <channelinfo>
-        <area x="17%" y="74%" width="67%" height="18%" layer="2">
-            <drawtext x="0" y="0" font="{semibold}" fontsize="35%" color="{clrWhite}" text="{channelnumber}  {channelname}" />
+        <area x="17%" y="74%" width="67%" height="6%" layer="2">
+            <drawtext x="0" y="0" font="{semibold}" fontsize="100%" color="{clrWhite}" text="{channelnumber}  {channelname}" />
         </area>
-        <area x="2%" y="75%" width="13%" height="25%" layer="2">
+        <area x="2%" y="78%" width="12%" height="18%" layer="2">
             <drawimage condition="{channellogoexists}" cache="true" imagetype="channellogo" path="{channelid}" width="100%" height="100%" align="center" valign="center"/>
             <drawimage condition="not{channellogoexists}" cache="true" imagetype="icon" path="vdrlogo" width="100%" height="100%" align="center" valign="center"/>
         </area>

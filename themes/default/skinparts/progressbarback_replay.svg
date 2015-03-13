@@ -22,7 +22,7 @@
     <linearGradient
        id="linearGradient5627">
       <stop
-         style="stop-color:#000000;stop-opacity:1"
+         style="stop-color:#323232;stop-opacity:1;"
          offset="0"
          id="stop5629" />
       <stop
@@ -33,11 +33,11 @@
     <linearGradient
        id="linearGradient5619">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:#323232;stop-opacity:1;"
          offset="0"
          id="stop5621" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop5623" />
     </linearGradient>
@@ -46,19 +46,19 @@
        xlink:href="#linearGradient5619"
        id="linearGradient5625"
        x1="292"
-       y1="1054.9065"
+       y1="1049.1788"
        x2="292"
-       y2="1029.5194"
+       y2="1018.4011"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(2.0826315,0,0,4.7821383,0.21066728,-3977.3574)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5627"
        id="linearGradient5633"
-       x1="268.61319"
-       y1="1058.3187"
-       x2="269.38681"
-       y2="1024.3894"
+       x1="269"
+       y1="1054.1072"
+       x2="269"
+       y2="1030.1171"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(2.0826315,0,0,4.7821383,0.21066728,-3977.3574)" />
   </defs>
@@ -69,17 +69,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2413147"
-     inkscape:cx="606.85233"
-     inkscape:cy="96.002518"
+     inkscape:zoom="0.87774205"
+     inkscape:cx="570.58359"
+     inkscape:cy="78.787158"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2286"
-     inkscape:window-height="1223"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1600"
+     inkscape:window-height="1153"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5066">
